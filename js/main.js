@@ -118,6 +118,11 @@ $(document).ready(function(){
       picture:"img/profile5.jpg",
       statement: "I'm looking for a running buddy around my town, I'm passionate about sports, Who want to run with me in the middle of the day or the mornings ?",
       color:"#f39c12"
+    },
+    {
+      picture:"img/profile6.jpg",
+      statement: "I'm passionate about history, I hope I'll find another way to conversations using modern user experience and real time features",
+      color:"#2ecc71"
     }
   ]
 
@@ -154,10 +159,6 @@ $(document).ready(function(){
     },4000)
 
   },5000);
-
-
-
-
 
 
 });
