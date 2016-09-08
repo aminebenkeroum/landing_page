@@ -820,11 +820,46 @@ ul.ChatLog {
 
 .travel-case{
       text-align: center;
+      position: relative;
 }
 .travel-case .conversation-img{
   margin: auto;
   width: 375px;
   height: 377px;
+}
+
+.notification{
+  width: 300px;
+  position: absolute;
+  top: 300px;
+  display: none;
+  border-radius: 4px;
+  padding: 10px;
+  background: #55a40f;
+}
+
+.notif-right{
+  right:10px;
+}
+
+.notif-left{
+  left:10px;
+}
+
+.notification p{
+  color: white;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+.notification img{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  border-radius: 100px;
+  top: 54px;
+  left: -30px;
 }
 
 
@@ -863,6 +898,9 @@ ul.ChatLog {
   letter-spacing: 0px;
 }
 
+.notif-right{
+  opacity: 0 !important;
+}
 
 .btn-wide {
   width: 100%;
